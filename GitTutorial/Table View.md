@@ -6,20 +6,25 @@ App Development with Swift 교재 [Lesson 4.5 - Table View] 번역, 요약 정�
 
 ### Vocabulary
 **accessory view**
+
 table view cell은 추가적인 정보를 표현하기 위한 accessory view를 갖는다. ex) .checkmark .detailIndicator
 
 **index path**
+
 cell의 section과 row를 구분하기 위해 사용된다. [section, row] 형태로 표현. 0부터 시작(Zero-based)
 
 **dequeue**
+
 table view는 특별한 caching system을 사용하는데  이는 이미 화면에 표현된 cell을 재사용한다.
 
 재사용 cell을 고르고 준비하는 과정을 'dequeuing'이라고 부른다.
 
 **readability margin**
+
 Auto Layout을 이용해서 device에 따라 view의 readability margin을 조정할 수 있다.
 
 **reorder controll**
+
 reorder controll은 사용자가 table view의 cell을 움직이는 것을 허용한다.
 
 ### Table View Controllers
