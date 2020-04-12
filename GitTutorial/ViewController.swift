@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
     
+    var teams = [Team(teamName: "LA Dodgers", teamColor: "Blue"), Team(teamName: "St.Cardinars", teamColor: "Red")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -24,14 +26,14 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return teams.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
-        cell.textLabel?.text = "Hello"
-        cell.detailTextLabel?.text = "2020-04-12"
+        cell.textLabel?.text = teams[indexPath.row].teamName
+        cell.detailTextLabel?.text = teams[indexPath.row].teamColor
         
         return cell
     }
