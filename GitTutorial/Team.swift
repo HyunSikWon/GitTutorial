@@ -8,6 +8,7 @@
 
 import Foundation
 
+//MARK: - Model
 struct Team {
     var teamName: String
     var teamColor: String
