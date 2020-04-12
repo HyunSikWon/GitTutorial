@@ -30,6 +30,9 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
+        cell.textLabel?.text = "Hello"
+        cell.detailTextLabel?.text = "2020-04-12"
+        
         return cell
     }
     
