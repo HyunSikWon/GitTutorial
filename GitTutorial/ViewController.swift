@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // MARK: - Properties & Variables
     @IBOutlet var tableView: UITableView!
-    
     var teams = [
         Team(teamName: "LA Dodgers", teamColor: "Blue"),
         Team(teamName: "St.Cardinars", teamColor: "Red"),
