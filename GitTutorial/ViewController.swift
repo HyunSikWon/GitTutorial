@@ -15,12 +15,13 @@ class ViewController: UIViewController {
     var teams = [
         Team(teamName: "LA Dodgers", teamColor: "Blue"),
         Team(teamName: "St.Cardinars", teamColor: "Red"),
-        Team(teamName: "Toronto Blue Jays", teamColor: "Blue")
+        Team(teamName: "Toronto Blue Jays", teamColor: "Blue"),
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "MAJOR LEAGUE BASEBALL"
         tableView.delegate = self
         tableView.dataSource = self
         
