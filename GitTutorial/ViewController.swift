@@ -47,9 +47,7 @@ extension ViewController: UITableViewDataSource {
     
 }
 
-extension ViewController: UITableViewDelegate {
-    
-}
+extension ViewController: UITableViewDelegate { }
 
 
 
