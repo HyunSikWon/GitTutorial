@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     
 }
 
+// MARK: - Extensions
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return teams.count
