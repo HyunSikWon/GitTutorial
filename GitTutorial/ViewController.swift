@@ -22,12 +22,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "MAJOR LEAGUE BASEBALL"
+        title = "MLB"
         tableView.delegate = self
         tableView.dataSource = self
         
     }
-    
 }
 
 // MARK: - Extensions
