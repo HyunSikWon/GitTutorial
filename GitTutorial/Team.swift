@@ -12,5 +12,4 @@ import Foundation
 struct Team {
     var teamName: String
     var teamColor: String
-    
 }
