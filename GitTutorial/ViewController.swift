@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         Team(teamName: "LA Dodgers", teamColor: "Blue"),
         Team(teamName: "St.Cardinars", teamColor: "Red"),
         Team(teamName: "Toronto Blue Jays", teamColor: "Blue"),
-        Team(teamName: "New York Mets", teamColor: "Blue")
+        Team(teamName: "New York Mets", teamColor: "Blue"),
+        Team(teamName: "Boston RedSox", teamColor: "Red")
     ]
     
     override func viewDidLoad() {
