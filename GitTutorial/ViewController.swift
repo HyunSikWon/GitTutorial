@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         title = "MLB"
         tableView.delegate = self
         tableView.dataSource = self
+        // View 수정
         
     }
 }
